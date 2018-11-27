@@ -114,11 +114,11 @@ monster: <num>
 <user-defined monster>  : <num>
 ```
 
-* <string> can be any string of characters.
-* <colour> must be one of the colours available. (See the Appendix at the end of this README for a list of valid colours.)
-* <char> must be a single character. Space(' ') won't work.
-* <num> must be a non-negative integer. (Certain fields only take positive integers. However no such fields are present in the above sample.)
-* <user-defined monster> is the name of a monster type which is defined later in the file.
+* `<string>` can be any string of characters.
+* `<colour>` must be one of the colours available. (See the Appendix at the end of this README for a list of valid colours.)
+* `<char>` must be a single character. Space(' ') won't work.
+* `<num>` must be a non-negative integer. (Certain fields only take positive integers. However no such fields are present in the above sample.)
+* `<user-defined monster>` is the name of a monster type which is defined later in the file.
 
 
 * `name` is the name that will be displayed in the title bar.
