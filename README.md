@@ -354,20 +354,20 @@ Other colours:
 * `medium_min`
 * `medium_max`
 * `large_min`
-* `large_max`
+* `large_max`  
   These are the minimum and maximum dimensions for those room types. Note that the side of a room includes the walls, so the minimum side must be at least 3.
   
-* `map_type`
+* `map_type`  
   Either 1 or 2.  
   DunGen has two map generation methods.   
-  The default (1) uses a random algorithm to fit all the rooms in a fixed map of size 80 by 40. It tries various possibilities before giving up. Due to this, it can be incredibly slow. If it is unable to generate the map, it gives the time taken and an error message.
-  The other (2) first decides the map size based on the number of rooms and then fits the rooms using a grid-based approach. Thus this always succeeds on the first try. However due to much less randomness involved, the rooms are placed in a more orderly fashion than usually expected from a dungeon.
+  The default (1) uses a random algorithm to fit all the rooms in a fixed map of size 80 by 40. It tries various possibilities before giving up. Due to this, it can be incredibly slow. If it is unable to generate the map, it gives the time taken and an error message.  
+  The other (2) first decides the map size based on the number of rooms and then fits the rooms using a grid-based approach. Thus this always succeeds on the first try. However due to much less randomness involved, the rooms are placed in a more orderly fashion than usually expected from a dungeon.  
   Note that neither of these is particularly useful for maps with many rooms. The first because it won't be able to generate it all even after taking up much time. The other because the map will be so big, it won't fit completely on the screen.
   
-* `health_boost`
+* `health_boost`  
   The health boost the player receives after walking over corpses.
   
-* `fov`
+* `fov`  
   The player's field of vision or up to how many blocks away the player can see if nothing is blocking sight.
 
 #### Predefined Behaviours
